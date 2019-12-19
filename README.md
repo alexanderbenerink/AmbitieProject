@@ -23,7 +23,7 @@ Zorg dat Node.JS en NPM (Node Package Manager) is geinstalleerd.
 ```
     npm install @vue/cli-service
 ```
-* In de directory run in CMD het commando
+* Vervolgens run je in de directory het commando
 ```
     npm run serve 
 ```
