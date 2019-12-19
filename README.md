@@ -34,3 +34,24 @@ Zorg dat Node.JS en NPM (Node Package Manager) is geinstalleerd.
 ```
 npm run lint
 ```
+
+### Fixes voor installatie problemen
+Het kan voorkomen dat er problemen bij de installatie voorkomen (geen sass, sassloader of missende node modules).
+Om dit te fixen kun je de volgende commandos uitvoeren in CMD (binnen de directory van het project):
+
+```
+npm install -g @vue/cli
+```
+
+```
+npm install bulma
+```
+
+```
+npm install sass
+```
+en/of (nog niet geprobeerd)
+
+```
+npm install -g vue
+```
