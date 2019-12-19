@@ -55,3 +55,4 @@ en/of (nog niet geprobeerd)
 ```
 npm install -g vue
 ```
+Maar als het goed is HOORT er geen probleem te zijn nadat de vue-cli-service is geinstalleerd.
