@@ -1,5 +1,5 @@
 # Ambitie Project
-<p align="center"><img src="https://i.imgur.com/8P8yYJ8.png" width="400" height="400"></p>
+<p align="center"><img src="https://i.imgur.com/8P8yYJ8.png" width="300" height="300"></p>
 
 ### Beschrijving
 
