@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Navigation bar -->
     <div class="hero-head">
-      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <nav class="navbar is-transparent is-fixed-top has-background-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand" v-if="$route.meta.home">
           <router-link to="/" class="navbar-item">
             <span id="nav-name">
@@ -24,6 +24,7 @@
             <router-link to="/about" class="navbar-item">About me</router-link>
             <router-link to="/projects" class="navbar-item">Projects</router-link>
             <router-link to="/contact" class="navbar-item">Contact</router-link>
+            <!-- CV button -->
             <span class="navbar-item">
               <a href="" class="button is-success" target="_blank">
                 <span class="icon">
@@ -49,7 +50,9 @@
       <router-view/>
     </transition>
   </main>
+<!--   <br> -->
   <!-- Footer navigation -->
+<!--   <br> -->
     <div class="hero-foot">
       <footer class="footer has-background-dark">
         <nav class="tabs is-boxed is-medium is-fullwidth">
@@ -58,18 +61,15 @@
               <li><a><font-awesome-icon :icon="['fab', 'github']" /></a></li>
               <li><a><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
               <li><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'youtube']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'facebook']" /></a></li>
+              <li><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
             </ul>
           </div>
         </nav>
-        <div class="content has-text-centered">
-          <p>
-          © Copyright 2019 - Alexander Benerink <!-- Not dynamic yet -->
+          <p class="content has-text-centered">
+          © Copyright {{ new Date().getFullYear() }} - Alexander Benerink
           </p>
-        </div>
       </footer>
-  </div>
+    </div>
   </div>
 </template>
 
@@ -135,6 +135,10 @@ footer {
 .fade-enter,
 .fade-leave-active {
   opacity: 0
+}
+
+a:hover {
+  color: lightgreen !important;
 }
 </style>
 

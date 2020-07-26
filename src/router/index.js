@@ -29,7 +29,7 @@ const routes = [
     meta: {
       auth: true,
       title: 'About me',
-      home: '🠐 Back'
+      home: 'Back'
     }
   },
   {
@@ -39,7 +39,7 @@ const routes = [
     meta: {
       auth: true,
       title: 'Projects',
-      home: '🠐 Back'
+      home: 'Back'
     }
   },
   {
@@ -49,12 +49,13 @@ const routes = [
     meta: {
       auth: true,
       title: 'Contact me',
-      home: '🠐 Back'
+      home: 'Back'
     }
   }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 
