@@ -7,8 +7,8 @@
         <div class="navbar-brand" v-if="$route.meta.home">
           <router-link to="/" class="navbar-item">
             <span id="nav-name">
-              <!-- <img src="" width="112" height="28"> -->
-              {{ $route.meta.home }}
+              <!-- {{ $route.meta.home }} -->
+              <img src="https://i.imgur.com/vbjv2rz.png" alt="Home">
             </span>
           </router-link>
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" :class="{ 'is-active': showNav }" @click="showNav = !showNav">
@@ -58,8 +58,8 @@
         <nav class="tabs is-boxed is-medium is-fullwidth">
           <div class="container">
             <ul>
-              <li><a><font-awesome-icon :icon="['fab', 'github']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
+              <li><a href="https://github.com/alexanderbenerink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
+              <li><a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
               <li><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
               <li><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
             </ul>
