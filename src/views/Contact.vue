@@ -13,7 +13,7 @@
               <div class="box has-background-dark has-text-light">
                 <h1 class="title is-4 has-text-weight-medium">Links</h1>
                   <h3 class="is-size-6 has-text-weight-medium has-text-light">E-mail</h3>
-                  <p><a href="mailto:alexander.benerink@outlook.com">alexander.benerink@outlook.com</a></p>
+                  <p><a href="mailto:alexander@benerink.online">alexander@benerink.online</a></p>
                     <br>
                   <h3 class="is-size-6 has-text-weight-medium has-text-light">Github</h3>
                   <p><a href="https://github.com/alexanderbenerink" target="_blank">Github.com/alexanderbenerink</a></p>
