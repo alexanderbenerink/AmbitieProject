@@ -12,7 +12,7 @@
                         I am a young (web) developer from The Netherlands, who is aspiring to become a full stack developer. To the right you'll see the technologies I've worked with.
                       </p>
                       <p>
-                        At the moment web development speaks the most to me. But I also am interested in software and game development. Some hobbies include gaming with friends, listening to music and doing weight training. My peers experience me as friendly, enthusiastic and eager-to-learn. I have a hands-on learning approach (learning by doing).
+                        At the moment web development speaks the most to me. But I also am interested in software and game development. Some hobbies include gaming with friends, listening to music and excercise. My peers experience me as friendly, enthusiastic and eager-to-learn. I have a hands-on learning approach (learning by doing).
                       </p>
                       <p>
                        In my spare time I like programming and I'm constantly trying to improve myself, including in all facets of life aswell.
