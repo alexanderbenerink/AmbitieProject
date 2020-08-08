@@ -25,7 +25,7 @@
             <router-link to="/contact" class="navbar-item">Contact</router-link>
             <!-- CV button -->
             <span class="navbar-item">
-              <a href="../assets/pdfs/CV.pdf" class="button is-success" target="_blank" download>
+              <a href="https://resume.io/r/OyuPrB8QU" class="button is-success" target="_blank" download>
                 <span class="icon">
                   <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
                 </span>
