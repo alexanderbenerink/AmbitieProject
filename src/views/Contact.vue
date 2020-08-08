@@ -2,7 +2,7 @@
   <section class="hero is-cover is-relative is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
-        <div class="columns">
+        <div class="columns is-multiline is-vcentered">
           <div class="column">
             <div class="has-text-light">
               <h1 class="title is-2 has-text-weight-medium">Contact</h1>
