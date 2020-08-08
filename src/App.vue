@@ -1,6 +1,5 @@
  <template class="has-navbar-fixed-top">
   <div id="app" class="hero is-dark is-fullheight">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Navigation bar -->
     <div class="hero-head">
       <nav class="navbar is-transparent is-fixed-top has-background-dark" role="navigation" aria-label="main navigation">
@@ -26,7 +25,7 @@
             <router-link to="/contact" class="navbar-item">Contact</router-link>
             <!-- CV button -->
             <span class="navbar-item">
-              <a href="" class="button is-success" target="_blank">
+              <a href="../assets/pdfs/CV.pdf" class="button is-success" target="_blank" download>
                 <span class="icon">
                   <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
                 </span>
@@ -66,7 +65,7 @@
           </div>
         </nav>
           <p class="content has-text-centered">
-          © Copyright {{ new Date().getFullYear() }} - Alexander Benerink
+            Copyright © {{ new Date().getFullYear() }}
           </p>
       </footer>
     </div>
@@ -105,6 +104,10 @@ export default {
     }
   }
 }
+// disable right mouse click
+// window.addEventListener('contextmenu', function (e) {
+//   e.preventDefault()
+// }, false)
 </script>
 
 <!-- Styles -->
