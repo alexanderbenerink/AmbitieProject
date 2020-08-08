@@ -38,7 +38,7 @@
                       </div>
                     </div>
                     <div class="content">
-                      <p class="subtitle is-6">A backend CMS/Admin panel made in Laravel + Voyager.</p>
+                      <p class="subtitle is-6">A backend CMS/Admin panel in Laravel + Voyager.</p>
                       <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal = true">
                         <p class="subtitle is-6">View project details</p>
                       </button>
@@ -65,8 +65,9 @@
                             </div>
                             <div class="column is-half">
                               <figure class="image is-multiline">
-                                <img class="zoom-img" src="../assets/projectimages/voyager1.png" v-on:click="isShowImgVoyager1 = true">
-                                <img class="zoom-img" src="../assets/projectimages/voyager2.png" v-on:click="isShowImgVoyager2 = true">
+                                <img class="zoom-img" src="../assets/projectimages/voyager1.jpg" v-on:click="isShowImgVoyager1 = true">
+                                <img class="zoom-img" src="../assets/projectimages/voyager2.jpg" v-on:click="isShowImgVoyager2 = true">
+                                <img class="zoom-img" src="../assets/projectimages/voyager3.jpg" v-on:click="isShowImgVoyager3 = true">
                               </figure>
                             </div>
                           </div>
@@ -75,7 +76,7 @@
                             <div class="modal-background" v-on:click="isShowImgVoyager1 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/voyager1.png">
+                                <img src="../assets/projectimages/voyager1.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -85,7 +86,17 @@
                             <div class="modal-background" v-on:click="isShowImgVoyager2 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/voyager2.png">
+                                <img src="../assets/projectimages/voyager2.jpg">
+                              </p>
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <!-- Image 3 modal -->
+                          <div class="modal" v-bind:class="{ 'is-active': isShowImgVoyager3 }">
+                            <div class="modal-background" v-on:click="isShowImgVoyager3 = false"></div>
+                            <div class="modal-content">
+                              <p class="image">
+                                <img src="../assets/projectimages/voyager3.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -144,8 +155,8 @@
                             </div>
                             <div class="column is-half">
                               <figure class="image is-multiline">
-                                <img class="zoom-img" src="../assets/projectimages/avnctel1.png" v-on:click="isShowImgAvnctel1 = true">
-                                <img class="zoom-img" src="../assets/projectimages/avnctel2.png" v-on:click="isShowImgAvnctel2 = true">
+                                <img class="zoom-img" src="../assets/projectimages/avnctel1.jpg" v-on:click="isShowImgAvnctel1 = true">
+                                <img class="zoom-img" src="../assets/projectimages/avnctel2.jpg" v-on:click="isShowImgAvnctel2 = true">
                               </figure>
                             </div>
                           </div>
@@ -154,7 +165,7 @@
                             <div class="modal-background" v-on:click="isShowImgAvnctel1 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/avnctel1.png">
+                                <img src="../assets/projectimages/avnctel1.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -164,7 +175,7 @@
                             <div class="modal-background" v-on:click="isShowImgAvnctel2 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/avnctel2.png">
+                                <img src="../assets/projectimages/avnctel2.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -193,11 +204,11 @@
                   <div class="card-content has-background-grey-dark">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4">PHP + MySQLi IRC Style Chat Application</p> <!-- Title -->
+                        <p class="title is-4">IRC-Style PHP Chat Application</p> <!-- Title -->
                       </div>
                     </div>
                     <div class="content">
-                      <p class="subtitle is-6">My first ever, 'real' PHP project. Made in my first year in MBO-4</p>
+                      <p class="subtitle is-6">First year Application Development PHP chat app.</p>
                       <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal3 = true">
                         <p class="subtitle is-6">View project details</p>
                       </button>
@@ -223,9 +234,9 @@
                             </div>
                             <div class="column is-half">
                               <figure class="image is-multiline">
-                                <img class="zoom-img" src="../assets/projectimages/phpchat1.png" v-on:click="isShowImgPhpchat1 = true">
-                                <img class="zoom-img" src="../assets/projectimages/phpchat2.png" v-on:click="isShowImgPhpchat2 = true">
-                                <img class="zoom-img" src="../assets/projectimages/phpchat3.png" v-on:click="isShowImgPhpchat3 = true">
+                                <img class="zoom-img" src="../assets/projectimages/phpchat1.jpg" v-on:click="isShowImgPhpchat1 = true">
+                                <img class="zoom-img" src="../assets/projectimages/phpchat2.jpg" v-on:click="isShowImgPhpchat2 = true">
+                                <img class="zoom-img" src="../assets/projectimages/phpchat3.jpg" v-on:click="isShowImgPhpchat3 = true">
                               </figure>
                             </div>
                           </div>
@@ -234,7 +245,7 @@
                             <div class="modal-background" v-on:click="isShowImgPhpchat1 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/phpchat1.png">
+                                <img src="../assets/projectimages/phpchat1.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -244,7 +255,7 @@
                             <div class="modal-background" v-on:click="isShowImgPhpchat2 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/phpchat2.png">
+                                <img src="../assets/projectimages/phpchat2.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -254,7 +265,7 @@
                             <div class="modal-background" v-on:click="isShowImgPhpchat3 = false"></div>
                             <div class="modal-content">
                               <p class="image">
-                                <img src="../assets/projectimages/phpchat3.png">
+                                <img src="../assets/projectimages/phpchat3.jpg">
                               </p>
                             </div>
                             <button class="modal-close is-large" aria-label="close"></button>
@@ -285,6 +296,7 @@ export default {
       isShowModal3: false,
       isShowImgVoyager1: false,
       isShowImgVoyager2: false,
+      isShowImgVoyager3: false,
       isShowImgAvnctel1: false,
       isShowImgAvnctel2: false,
       isShowImgPhpchat1: false,
