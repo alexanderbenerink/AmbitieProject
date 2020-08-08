@@ -6,7 +6,7 @@
           <div class="column">
             <div class="has-text-light">
               <h1 class="title is-2 has-text-weight-medium">Contact</h1>
-              <p>If you have any questions or are interested in hiring me, you can contact me using one of the following links. 😃</p>
+              <p>If you have any questions, you can contact me using one of the following links. 😃</p>
             </div>
           </div>
           <div class="column">
