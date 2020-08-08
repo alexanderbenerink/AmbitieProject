@@ -3,7 +3,7 @@
     <div class="hero is-cover is-relative is-fullheight-with-navbar is-dark">
         <div class="hero-body">
             <div class="container">
-                <div class="columns">
+                <div class="columns is-multiline is-vcentered">
                   <div class="column is-two-thirds">
                     <h1 class="title is-1">I'm Alexander.</h1>
                     <h2 class="subtitle is-3">I consider myself a customer oriented, aspiring full stack developer.</h2>

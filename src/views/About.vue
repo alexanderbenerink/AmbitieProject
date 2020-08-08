@@ -1,70 +1,62 @@
 <template>
-  <div class="about">
-    <!-- Hero header describing this page -->
-    <section class="hero is-medium is-dark">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-2">
-                    <P>A little bit about me..</P>
-                </h1>
-                <h2 class="subtitle is-4">
-                    <p>Who am I? What drives me to work on projects? And what you can expect from me. 🤔</p>
-                </h2>
-            </div>
-        </div>
-    </section>
-    <!-- Section shortly describing my skills -->
-    <section class="section">
-      <h2 class="title is-3 has-text-weight-medium has-text-centered">My qualities</h2>
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Quality 1</h3>
-              <p>Description about quality 1</p>
+  <div class="hero is-cover is-relative is-fullheight-with-navbar is-dark">
+    <div class="hero-body">
+      <div class="container is-fluid">
+        <div class="columns is-multiline is-vcentered">
+          <div class="column is-one-quarter"> <!-- Page description -->
+            <div class="hero-body">
+                <div class="container">
+                  <div class="content has-text-light">
+                    <h1 class="title is-2 has-text-weight-medium">Bio</h1>
+                      <p>
+                        I am a young (web) developer from The Netherlands, who is aspiring to become a full stack developer. To the right you'll see the technologies I've worked with.
+                      </p>
+                      <p>
+                        At the moment web development speaks the most to me. But I also am interested in software and game development. Some hobbies include gaming with friends, listening to music and doing weight training. My peers experience me as friendly, enthusiastic and eager-to-learn. I have a hands-on learning approach (learning by doing).
+                      </p>
+                      <p>
+                       In my spare time I like programming and I'm constantly trying to improve myself, including in all facets of life aswell.
+                      </p>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="column">
+          <div class="column is-one-quarter"> <!-- Skill 1 card -->
             <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Quality 2</h3>
-              <p>Description about quality 2</p>
+              <h3 class="title is-4 has-text-weight-medium">Web Development</h3>
+              <div class="content">
+                <p>Some technologies I've worked with include:</p>
+                <ul>
+                  <li>HTML5, PHP, JS and SQL</li>
+                  <li>Netlify</li>
+                  <li>Laravel</li>
+                  <li>Vue.JS</li>
+                  <li>Bulma CSS</li>
+                  <li>Bootstrap CSS</li>
+                  <li>WordPress</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="column">
+          <div class="column is-one-quarter"> <!-- Skill 2 card -->
             <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Quality 3</h3>
-              <p>Description about quality 3</p>
+              <h3 class="title is-4 has-text-weight-medium">Game Development</h3>
+              <div class="content">
+                <p>
+                  In my spare time I like to work on a personal project inside Unreal Engine 4. This is when I get the most 'creative pleasure' out of my day, besides working on websites. This also includes modeling in Blender and UE4 itself, blueprinting, and (dabbling) in C++. 😁
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section shortly describing my hobbies -->
-    <section class="section">
-      <h2 class="title is-3 has-text-weight-medium has-text-centered">My hobbies</h2>
-      <div class="container">
-        <div class="columns">
-          <div class="column">
+          <div class="column is-one-quarter"> <!-- Skill 3 card -->
             <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Hobby 1</h3>
-              <p>Description about hobby 1</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Hobby 2</h3>
-              <p>Description about hobby 2</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="box has-background-grey-dark has-text-light">
-              <h3 class="title is-4 has-text-weight-medium">Hobby 3</h3>
-              <p>Description about hobby 3</p>
+              <h3 class="title is-4 has-text-weight-medium">Software Development</h3>
+              <p>I have created several small applications inside C# but I'd like to learn more about programming in Python and C++.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </template>
 
