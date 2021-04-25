@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Projects from '../views/Projects.vue'
-import Contact from '../views/Contact.vue'
+// import Home from '../views/Home.vue'
+// import About from '../views/About.vue'
+// import Projects from '../views/Projects.vue'
+// import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -11,7 +11,8 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home,
+    component: () => import('../views/Home.vue'),
+    // component: Home,
     meta: {
       auth: true,
       title: 'Home',
@@ -25,7 +26,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     // component: () => import( /* webpackChunkName: "about" */ '../views/About.vue')
-    component: About,
+    component: () => import('../views/About.vue'),
     meta: {
       auth: true,
       title: 'About me',
@@ -35,7 +36,7 @@ const routes = [
   {
     path: '/projects',
     name: 'projects',
-    component: Projects,
+    component: () => import('../views/Projects.vue'),
     meta: {
       auth: true,
       title: 'Projects',
@@ -45,7 +46,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: Contact,
+    component: () => import('../views/Contact.vue'),
     meta: {
       auth: true,
       title: 'Contact me',
@@ -58,7 +59,7 @@ const routes = [
     name: 'notfound',
     component: () => import('../views/PageNotFound.vue'),
     meta: {
-      requiresAuth: false,
+      auth: false,
       title: 'Error - Page not found',
       home: 'Back'
     }
