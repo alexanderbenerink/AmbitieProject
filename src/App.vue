@@ -57,10 +57,10 @@
         <nav class="tabs is-boxed is-medium is-fullwidth">
           <div class="container">
             <ul>
-              <li><a href="https://github.com/alexanderbenerink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
-              <li><a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
+              <li class="footer-li"><a href="https://github.com/alexanderbenerink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
+              <li class="footer-li"><a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
+              <li class="footer-li"><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
+              <li class="footer-li"><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
             </ul>
           </div>
         </nav>
@@ -119,6 +119,7 @@ export default {
   display: block;
   position: relative;
   padding-bottom: 190px; /* height of footer */
+  font-family: "Times New Roman" !important;
 }
 footer {
  position: absolute;
@@ -140,8 +141,13 @@ footer {
   opacity: 0
 }
 
-a:hover {
-  color: lightgreen !important;
+.url:hover {
+  color: greenyellow !important;
+  background-color: black !important;
+}
+
+.navbar-item:hover, .footer-li:hover {
+  color: greenyellow !important;
 }
 </style>
 

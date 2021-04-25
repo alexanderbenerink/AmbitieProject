@@ -28,11 +28,11 @@
                 <div class="card-content has-background-grey-dark">
                   <div class="media">
                     <div class="media-content">
-                      <p class="title is-4">Coral Yachts Backend Framework</p> <!-- Title -->
+                      <p class="title is-4">JS Framework portfolio website</p> <!-- Title -->
                     </div>
                   </div>
                   <div class="content">
-                    <p class="subtitle is-6">A backend CMS/Admin panel in Laravel + Voyager.</p>
+                    <p class="subtitle is-6">Portfolio website created using the Vue.JS framework.</p>
                     <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal = true">
                       <p class="subtitle is-6">View project details</p>
                     </button>
@@ -51,11 +51,19 @@
                         <div class="columns">
                           <div class="column is-half">
                             <h3>About</h3>
-                            <p>In my final year of my education we were given the assignment of creating an online backend/admin panel in our own framework of choice. So, I chose Laravel, a PHP framework of which I already had some experience with.
-                            To assist with creating an admin panel, I have chosen to use <a href="https://voyager.devdojo.com/" target="_blank">Voyager</a>, an admin package for Laravel which utilises it's own version of CRUD, called BREAD (Browse, Read, Edit, Add, Delete). The end result: an operable admin panel which allows you to book yachts.</p>
+                            <p>In my final year of my education we were given the assignment of creating a (web) application that would be beneficial to you in any way. So, I chose to create a portfolio website, something which I hadn't done yet. To challenge myself, I chose to develop it inside a JavaScript framework (Vue.JS) coupled with a bootstrap alternative (Bulma CSS).
+                            <br />To assist with troubleshooting, I have chosen to take example of <a class="url" href="https://hellomark.dev/" target="_blank">Mark Johnson</a>'s helpful tutorial!</p>
                             <h3>Learning goals</h3>
-                            <p>With this project my goals were to learn how to create an admin backend for websites inside Laravel, to sharpen my skills in database fundamentals and to learn BREAD (and by extension, reinforce my existing knowledge of CRUD).</p>
-                            <a href="https://github.com/alexanderbenerink/CoralYachtsFramework" target="_blank"><p>See on Github</p></a>
+                            <p>
+                            Within this project the main goals I've set were as follows:
+                            </p>
+                            <ul>
+                              <li>Reinforce my knowledge of MVC</li>
+                              <li>Learn a JS framework</li>
+                              <li>Learn how Single Page Applications work</li>
+                              <li>Create a online space for personal expression and career marketing</li>
+                            </ul>
+                            <p>Feel free to <a class="url" href="https://github.com/alexanderbenerink/AmbitieProject" target="_blank">fork this site and see how it works!</a></p>
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
@@ -98,7 +106,7 @@
                       </div>
                     </section>
                     <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal = false">Cancel</button>
+                      <button class="button" v-on:click="isShowModal = false">Close</button>
                     </footer>
                   </div>
                 </div>
@@ -142,10 +150,19 @@
                         <div class="columns">
                           <div class="column is-half">
                             <h3>About</h3>
-                            <p>On februari 2020, I have made a phone book as an example to show my skills in Laravel for the company I interned for, during the last year of my education in Application development.</p>
+                            <p>
+                            For my second internship, during the final year of my education, I was tasked with creating a phonebook inside the Laravel framework. This was not only to kind of gauge my skills but to also prove the company I had the necessary critical thinking skills and mental competence usually desired from a developer.
+                            </p>
                             <h3>Learning goals</h3>
-                            <p>My goals were to show the company 'what I got', to create a full fledged CRUD application and to learn how 'search' and 'data sorting' functions work inside Laravel.</p>
-                            <a href="https://github.com/alexanderbenerink/avnctelefoonboek" target="_blank"><p>See on Github</p></a>
+                            <p>
+                            My learning goals for this project were:
+                            </p>
+                            <ul>
+                              <li>When and how to ask questions if I was stuck</li>
+                              <li>To learn how search and data sorting functions work inside Laravel</li>
+                              <li>How to perform CRUD (Create, Read, Update, Destroy) operations inside Laravel</li>
+                            </ul>
+                            <a class="url" href="https://github.com/alexanderbenerink/avnctelefoonboek" target="_blank">See on Github</a>
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
@@ -177,7 +194,7 @@
                       </div>
                     </section>
                     <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal2 = false">Cancel</button>
+                      <button class="button" v-on:click="isShowModal2 = false">Close</button>
                     </footer>
                   </div>
                 </div>
@@ -221,10 +238,18 @@
                         <div class="columns">
                           <div class="column is-half">
                             <h3>About</h3>
-                            <p>During my first year of my education in Application development, I was tasked with creating a basic PHP chatroom using no frameworks. In this app you can make an account and use it to chat with people. While it is, incredibly basic, I scored positively on this assignment and moved on. I'm still pretty proud of this crude little app.</p>
+                            <p>During my first year of my education in Application development, I was tasked with creating a chatroom using only PHP and a SQL database. In this project, you are able to create an account and use it to chat with other people. While it is incredibly basic, I got to learn how a rudimentary chat system could be implemented in a website using a few basic tools.</p>
                             <h3>Learning goals</h3>
-                            <p>My learning goals were how to create a chat application purely in PHP, using MySQLi to connect to the database and perform CRUD operations, and how to create a login and registration system (while I was at it).</p>
-                            <!-- <a href="https://github.com/alexanderbenerink/PHPChatAppFirstYear" target="_blank"><p>See on Github</p></a> -->
+                            <p>
+                            My learning goals for this project were:
+                            </p>
+                            <ul>
+                              <li>How to create an online chat application in PHP</li>
+                              <li>How to perform CRUD (Create, Read, Update, Destroy) queries/operations using MySQLi</li>
+                              <li>How to create a login and registration system and hash passwords</li>
+                              <li>How to utilize cookies and sessions for the first time</li>
+                            </ul>
+                            <!-- <a class="url" href="https://github.com/alexanderbenerink/PHPChatAppFirstYear" target="_blank"><p>See on Github</p></a> -->
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
@@ -267,7 +292,7 @@
                       </div>
                     </section>
                     <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal3 = false">Cancel</button>
+                      <button class="button" v-on:click="isShowModal3 = false">Close</button>
                     </footer>
                   </div>
                 </div>
