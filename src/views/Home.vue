@@ -19,11 +19,13 @@
                             <div class="card-content has-background-dark">
                               <div class="media">
                                 <div class="media-content has-text-centered">
-                                  <p class="title is-4">Quick rundown</p> <!-- Title project card -->
+                                  <!-- Title project card -->
+                                  <p class="title is-4">Quick rundown</p>
                                 </div>
                               </div>
                               <div class="content">
-                                <p class="subtitle is-6">I'm an enthusiastic, eager-to-learn, front- and backend programmer, specialised in HTML5 and PHP (web development in general). I also indulge in a bit of game development and 3D modeling in my spare time.</p> <!-- Summary project -->
+                                <!-- Summary project -->
+                                <p class="subtitle is-6">I'm an enthusiastic, eager-to-learn, front- and backend programmer, specialised in HTML5 and PHP (web development in general). I also indulge in a bit of game development and 3D modeling in my spare time.</p>
                               </div>
                             </div>
                           </div>

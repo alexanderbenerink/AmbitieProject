@@ -51,6 +51,17 @@ const routes = [
       title: 'Contact me',
       home: 'Back'
     }
+  },
+  // Catch 404 or illegitimate urls etc
+  {
+    path: '/:catchAll(.*)',
+    name: 'notfound',
+    component: () => import('../views/PageNotFound.vue'),
+    meta: {
+      requiresAuth: false,
+      title: 'Error - Page not found',
+      home: 'Back'
+    }
   }
 ]
 
