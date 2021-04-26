@@ -44,18 +44,18 @@
                 <div class="modal" v-bind:class="{ 'is-active': isShowModal }">
                   <div class="modal-background" v-on:click="isShowModal = false"></div>
                   <div class="modal-card">
-                    <header class="modal-card-head has-background-grey-light">
-                      <p class="modal-card-title">Information</p>
+                    <header class="modal-card-head has-background-grey-dark">
+                      <p class="modal-card-title has-text-light">Information</p>
                       <button class="delete" aria-label="close" v-on:click="isShowModal = false"></button>
                     </header>
-                    <section class="modal-card-body has-background-grey-lighter">
+                    <section class="modal-card-body has-background-grey-dark has-text-light">
                       <div class="content">
                         <div class="columns">
                           <div class="column is-half">
-                            <h3>About</h3>
+                            <h3 class="has-text-light">About</h3>
                             <p>In my final year of my education we were given the assignment of creating a (web) application that would be beneficial to you in any way. So, I chose to create a portfolio website, something which I hadn't done yet. To challenge myself, I chose to develop it inside a JavaScript framework (Vue.JS) coupled with a bootstrap alternative (Bulma CSS).
                             <br />To assist with troubleshooting, I have chosen to take example of <a class="url" href="https://hellomark.dev/" target="_blank">Mark Johnson</a>'s helpful tutorial!</p>
-                            <h3>Learning goals</h3>
+                            <h3 class="has-text-light">Learning goals</h3>
                             <p>
                             Within this project the main goals I've set were as follows:
                             </p>
@@ -65,7 +65,6 @@
                               <li>Learn how Single Page Applications work</li>
                               <li>Create a online space for personal expression and career marketing</li>
                             </ul>
-                            <p>Feel free to <a class="url" href="https://github.com/alexanderbenerink/AmbitieProject" target="_blank">fork this site and see how it works!</a></p>
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
@@ -110,8 +109,9 @@
                         </div>
                       </div>
                     </section>
-                    <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal = false">Close</button>
+                    <footer class="modal-card-foot has-background-grey-dark">
+                      <p>Feel free to <a class="url" href="https://github.com/alexanderbenerink/AmbitieProject" target="_blank">fork this site and see how it works!</a></p>
+                      <!-- <button class="button has-background-grey-light" v-on:click="isShowModal = false">Close</button> -->
                     </footer>
                   </div>
                 </div>
@@ -148,19 +148,19 @@
                 <div class="modal" v-bind:class="{ 'is-active': isShowModal2 }">
                   <div class="modal-background" v-on:click="isShowModal2 = false"></div>
                   <div class="modal-card">
-                    <header class="modal-card-head has-background-grey-light">
-                      <p class="modal-card-title">Information</p>
+                    <header class="modal-card-head has-background-grey-dark">
+                      <p class="modal-card-title has-text-light">Information</p>
                       <button class="delete" aria-label="close" v-on:click="isShowModal2 = false"></button>
                     </header>
-                    <section class="modal-card-body has-background-grey-lighter">
+                    <section class="modal-card-body has-background-grey-dark has-text-light">
                       <div class="content">
                         <div class="columns">
                           <div class="column is-half">
-                            <h3>About</h3>
+                            <h3 class="has-text-light">About</h3>
                             <p>
                             For my second internship, during the final year of my education, I was tasked with creating a phonebook inside the Laravel framework. This was not only to kind of gauge my skills but to also prove the company I had the necessary critical thinking skills and mental competence usually desired from a developer.
                             </p>
-                            <h3>Learning goals</h3>
+                            <h3 class="has-text-light">Learning goals</h3>
                             <p>
                             My learning goals for this project were:
                             </p>
@@ -169,7 +169,6 @@
                               <li>To learn how search and data sorting functions work inside Laravel</li>
                               <li>How to perform CRUD (Create, Read, Update, Destroy) operations inside Laravel</li>
                             </ul>
-                            <a class="url" href="https://github.com/alexanderbenerink/avnctelefoonboek" target="_blank">See on Github</a>
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
@@ -202,8 +201,9 @@
                         </div>
                       </div>
                     </section>
-                    <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal2 = false">Close</button>
+                    <footer class="modal-card-foot has-background-grey-dark">
+                      <a class="url" href="https://github.com/alexanderbenerink/avnctelefoonboek" target="_blank">See on Github</a>
+                      <!-- <button class="button has-background-grey-light" v-on:click="isShowModal2 = false">Close</button> -->
                     </footer>
                   </div>
                 </div>
@@ -240,17 +240,17 @@
                 <div class="modal" v-bind:class="{ 'is-active': isShowModal3 }">
                   <div class="modal-background" v-on:click="isShowModal3 = false"></div>
                   <div class="modal-card">
-                    <header class="modal-card-head has-background-grey-light">
-                      <p class="modal-card-title">Information</p>
+                    <header class="modal-card-head has-background-grey-dark">
+                      <p class="modal-card-title has-text-light">Information</p>
                       <button class="delete" aria-label="close" v-on:click="isShowModal3 = false"></button>
                     </header>
-                    <section class="modal-card-body has-background-grey-lighter">
+                    <section class="modal-card-body has-text-light has-background-grey-dark">
                       <div class="content">
                         <div class="columns">
                           <div class="column is-half">
-                            <h3>About</h3>
+                            <h3 class="has-text-light">About</h3>
                             <p>During my first year of my education in Application development, I was tasked with creating a chatroom using only PHP and a SQL database. In this project, you are able to create an account and use it to chat with other people. While it is incredibly basic, I got to learn how a rudimentary chat system could be implemented in a website using a few basic tools.</p>
-                            <h3>Learning goals</h3>
+                            <h3 class="has-text-light">Learning goals</h3>
                             <p>
                             My learning goals for this project were:
                             </p>
@@ -305,8 +305,8 @@
                         </div>
                       </div>
                     </section>
-                    <footer class="modal-card-foot has-background-grey-light">
-                      <button class="button" v-on:click="isShowModal3 = false">Close</button>
+                    <footer class="modal-card-foot has-background-grey-dark">
+                      <!-- <button class="button has-background-grey-light" v-on:click="isShowModal3 = false">Close</button> -->
                     </footer>
                   </div>
                 </div>
@@ -374,6 +374,10 @@ export default {
 
   .card-2 {
     background-color: palegreen; /* #98FB98 */
+  }
+
+  .modal-card-head, .modal-card-foot{
+    border-style: none;
   }
 
   .zoom-project, .zoom-img, .zoom-img2 {
