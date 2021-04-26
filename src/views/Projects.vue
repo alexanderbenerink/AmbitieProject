@@ -23,7 +23,7 @@
                   </div>
                   <div class="card-image">
                     <figure class="image is-square is-mobile">
-                      <img src="../assets/projectimages/portfolio-thumb.jpg">
+                      <img src="../assets/projectimages/portfolio/portfolio-thumb.jpg">
                     </figure>
                   </div>
                   <div class="card-content has-background-grey-dark">
@@ -69,9 +69,9 @@
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
-                              <img class="zoom-img" src="../assets/projectimages/portfolio1.jpg" v-on:click="isShowImgPortfolio1 = true">
-                              <img class="zoom-img" src="../assets/projectimages/portfolio2.jpg" v-on:click="isShowImgPortfolio2 = true">
-                              <img class="zoom-img" src="../assets/projectimages/portfolio3.jpg" v-on:click="isShowImgPortfolio3 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio/portfolio1.jpg" v-on:click="isShowImgPortfolio1 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio/portfolio2.jpg" v-on:click="isShowImgPortfolio2 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio/portfolio3.jpg" v-on:click="isShowImgPortfolio3 = true">
                             </figure>
                           </div>
                         </div>
@@ -82,7 +82,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/portfolio1.jpg">
+                              <img src="../assets/projectimages/portfolio/portfolio1.jpg">
                             </p>
                           </div>
                         </div>
@@ -93,7 +93,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/portfolio2.jpg">
+                              <img src="../assets/projectimages/portfolio/portfolio2.jpg">
                             </p>
                           </div>
                         </div>
@@ -104,7 +104,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/portfolio3.jpg">
+                              <img src="../assets/projectimages/portfolio/portfolio3.jpg">
                             </p>
                           </div>
                         </div>
@@ -127,7 +127,7 @@
                   </div>
                   <div class="card-image">
                     <figure class="image is-square">
-                      <img src="../assets/projectimages/avnctel-thumb.jpg">
+                      <img src="../assets/projectimages/avnctel/avnctel-thumb.jpg">
                     </figure>
                   </div>
                   <div class="card-content has-background-grey-dark">
@@ -173,8 +173,8 @@
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
-                              <img class="zoom-img" src="../assets/projectimages/avnctel1.jpg" v-on:click="isShowImgAvnctel1 = true">
-                              <img class="zoom-img" src="../assets/projectimages/avnctel2.jpg" v-on:click="isShowImgAvnctel2 = true">
+                              <img class="zoom-img" src="../assets/projectimages/avnctel/avnctel1.jpg" v-on:click="isShowImgAvnctel1 = true">
+                              <img class="zoom-img" src="../assets/projectimages/avnctel/avnctel2.jpg" v-on:click="isShowImgAvnctel2 = true">
                             </figure>
                           </div>
                         </div>
@@ -185,7 +185,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/avnctel1.jpg">
+                              <img src="../assets/projectimages/avnctel/avnctel1.jpg">
                             </p>
                           </div>
                         </div>
@@ -196,7 +196,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/avnctel2.jpg">
+                              <img src="../assets/projectimages/avnctel/avnctel2.jpg">
                             </p>
                           </div>
                         </div>
@@ -219,7 +219,7 @@
                   </div>
                   <div class="card-image">
                     <figure class="image is-square">
-                      <img src="../assets/projectimages/phpchat-thumb.jpg">
+                      <img src="../assets/projectimages/phpchat/phpchat-thumb.jpg">
                     </figure>
                   </div>
                   <div class="card-content has-background-grey-dark">
@@ -264,9 +264,9 @@
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
-                              <img class="zoom-img" src="../assets/projectimages/phpchat1.jpg" v-on:click="isShowImgPhpchat1 = true">
-                              <img class="zoom-img" src="../assets/projectimages/phpchat2.jpg" v-on:click="isShowImgPhpchat2 = true">
-                              <img class="zoom-img" src="../assets/projectimages/phpchat3.jpg" v-on:click="isShowImgPhpchat3 = true">
+                              <img class="zoom-img" src="../assets/projectimages/phpchat/phpchat1.jpg" v-on:click="isShowImgPhpchat1 = true">
+                              <img class="zoom-img" src="../assets/projectimages/phpchat/phpchat2.jpg" v-on:click="isShowImgPhpchat2 = true">
+                              <img class="zoom-img" src="../assets/projectimages/phpchat/phpchat3.jpg" v-on:click="isShowImgPhpchat3 = true">
                             </figure>
                           </div>
                         </div>
@@ -277,7 +277,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/phpchat1.jpg">
+                              <img src="../assets/projectimages/phpchat/phpchat1.jpg">
                             </p>
                           </div>
                         </div>
@@ -288,7 +288,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/phpchat2.jpg">
+                              <img src="../assets/projectimages/phpchat/phpchat2.jpg">
                             </p>
                           </div>
                         </div>
@@ -299,7 +299,7 @@
                           </div>
                           <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/phpchat3.jpg">
+                              <img src="../assets/projectimages/phpchat/phpchat3.jpg">
                             </p>
                           </div>
                         </div>
