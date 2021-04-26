@@ -389,10 +389,6 @@ export default {
     cursor: zoom-in;
   }
 
-  .zoom-img2 {
-    transform: scale(1.5);
-  }
-
   .zoom-img2:hover {
     transform: scale(2);
     cursor: zoom-in;
