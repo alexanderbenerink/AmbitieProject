@@ -17,25 +17,27 @@
           <div class="column is-one-quarter"> <!-- Project 1 card -->
             <div class="post-card">
               <div class="card">
-                <div class="card-header">
-                  <div class="card-header-title card-1 is-centered"><p>School assignment</p></div>
-                </div>
-                <div class="card-image">
-                  <figure class="image is-square is-mobile">
-                    <img src="../assets/projectimages/voyager-thumb.jpg">
-                  </figure>
-                </div>
-                <div class="card-content has-background-grey-dark">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">JS Framework portfolio website</p> <!-- Title -->
-                    </div>
+                <div class="zoom-project">
+                  <div class="card-header">
+                    <div class="card-header-title card-1 is-centered"><p>School assignment</p></div>
                   </div>
-                  <div class="content">
-                    <p class="subtitle is-6">Portfolio website created using the Vue.JS framework.</p>
-                    <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal = true">
-                      <p class="subtitle is-6">View project details</p>
-                    </button>
+                  <div class="card-image">
+                    <figure class="image is-square is-mobile">
+                      <img src="../assets/projectimages/portfolio-thumb.jpg">
+                    </figure>
+                  </div>
+                  <div class="card-content has-background-grey-dark">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">JS Framework portfolio website</p> <!-- Title -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="subtitle is-6">Portfolio website created using the Vue.JS framework.</p>
+                      <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal = true">
+                        <p class="subtitle is-6">View project details</p>
+                      </button>
+                    </div>
                   </div>
                 </div>
                 <!-- Project specific Modal -->
@@ -67,41 +69,44 @@
                           </div>
                           <div class="column is-half">
                             <figure class="image is-multiline">
-                              <img class="zoom-img" src="../assets/projectimages/voyager1.jpg" v-on:click="isShowImgVoyager1 = true">
-                              <img class="zoom-img" src="../assets/projectimages/voyager2.jpg" v-on:click="isShowImgVoyager2 = true">
-                              <img class="zoom-img" src="../assets/projectimages/voyager3.jpg" v-on:click="isShowImgVoyager3 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio1.jpg" v-on:click="isShowImgPortfolio1 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio2.jpg" v-on:click="isShowImgPortfolio2 = true">
+                              <img class="zoom-img" src="../assets/projectimages/portfolio3.jpg" v-on:click="isShowImgPortfolio3 = true">
                             </figure>
                           </div>
                         </div>
                         <!-- Image 1 modal -->
-                        <div class="modal" v-bind:class="{ 'is-active': isShowImgVoyager1 }">
-                          <div class="modal-background" v-on:click="isShowImgVoyager1 = false"></div>
-                          <div class="modal-content">
+                        <div class="modal" v-bind:class="{ 'is-active': isShowImgPortfolio1 }">
+                          <div class="modal-background" v-on:click="isShowImgPortfolio1 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/voyager1.jpg">
+                              <img src="../assets/projectimages/portfolio1.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                         <!-- Image 2 modal -->
-                        <div class="modal" v-bind:class="{ 'is-active': isShowImgVoyager2 }">
-                          <div class="modal-background" v-on:click="isShowImgVoyager2 = false"></div>
-                          <div class="modal-content">
+                        <div class="modal" v-bind:class="{ 'is-active': isShowImgPortfolio2 }">
+                          <div class="modal-background" v-on:click="isShowImgPortfolio2 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/voyager2.jpg">
+                              <img src="../assets/projectimages/portfolio2.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                         <!-- Image 3 modal -->
-                        <div class="modal" v-bind:class="{ 'is-active': isShowImgVoyager3 }">
-                          <div class="modal-background" v-on:click="isShowImgVoyager3 = false"></div>
-                          <div class="modal-content">
+                        <div class="modal" v-bind:class="{ 'is-active': isShowImgPortfolio3 }">
+                          <div class="modal-background" v-on:click="isShowImgPortfolio3 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
-                              <img src="../assets/projectimages/voyager3.jpg">
+                              <img src="../assets/projectimages/portfolio3.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                       </div>
                     </section>
@@ -116,25 +121,27 @@
           <div class="column is-one-quarter"> <!-- Project 2 card -->
             <div class="post-card">
               <div class="card">
-                <div class="card-header">
-                  <div class="card-header-title card-2 is-centered"><p>Internship assignment</p></div>
-                </div>
-                <div class="card-image">
-                  <figure class="image is-square">
-                    <img src="../assets/projectimages/avnctel-thumb.jpg">
-                  </figure>
-                </div>
-                <div class="card-content has-background-grey-dark">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">AVNC Laravel CRUD Application</p> <!-- Title -->
-                    </div>
+                <div class="zoom-project">
+                  <div class="card-header">
+                    <div class="card-header-title card-2 is-centered"><p>Internship assignment</p></div>
                   </div>
-                  <div class="content">
-                    <p class="subtitle is-6">A Laravel CRUD application to reinforce my skills.</p>
-                    <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal2 = true">
-                      <p class="subtitle is-6">View project details</p>
-                    </button>
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/projectimages/avnctel-thumb.jpg">
+                    </figure>
+                  </div>
+                  <div class="card-content has-background-grey-dark">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">AVNC Laravel CRUD Application</p> <!-- Title -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="subtitle is-6">A Laravel CRUD application to reinforce my skills.</p>
+                      <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal2 = true">
+                        <p class="subtitle is-6">View project details</p>
+                      </button>
+                    </div>
                   </div>
                 </div>
                 <!-- Project specific Modal -->
@@ -173,23 +180,25 @@
                         </div>
                         <!-- Image 1 modal -->
                         <div class="modal" v-bind:class="{ 'is-active': isShowImgAvnctel1 }">
-                          <div class="modal-background" v-on:click="isShowImgAvnctel1 = false"></div>
-                          <div class="modal-content">
+                          <div class="modal-background" v-on:click="isShowImgAvnctel1 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
                               <img src="../assets/projectimages/avnctel1.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                         <!-- Image 2 modal -->
                         <div class="modal" v-bind:class="{ 'is-active': isShowImgAvnctel2 }">
-                          <div class="modal-background" v-on:click="isShowImgAvnctel2 = false"></div>
-                          <div class="modal-content">
+                          <div class="modal-background" v-on:click="isShowImgAvnctel2 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
                               <img src="../assets/projectimages/avnctel2.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                       </div>
                     </section>
@@ -204,25 +213,27 @@
           <div class="column is-one-quarter"> <!-- Project 3 card -->
             <div class="post-card">
               <div class="card">
-                <div class="card-header">
-                  <div class="card-header-title card-3 is-centered"><p>School assignment</p></div>
-                </div>
-                <div class="card-image">
-                  <figure class="image is-square">
-                    <img src="../assets/projectimages/phpchat-thumb.jpg">
-                  </figure>
-                </div>
-                <div class="card-content has-background-grey-dark">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">IRC-Style PHP Chat Application</p> <!-- Title -->
-                    </div>
+                <div class="zoom-project">
+                  <div class="card-header">
+                    <div class="card-header-title card-3 is-centered"><p>School assignment</p></div>
                   </div>
-                  <div class="content">
-                    <p class="subtitle is-6">First year Application Development PHP chat app.</p>
-                    <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal3 = true">
-                      <p class="subtitle is-6">View project details</p>
-                    </button>
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/projectimages/phpchat-thumb.jpg">
+                    </figure>
+                  </div>
+                  <div class="card-content has-background-grey-dark">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">IRC-Style PHP Chat Application</p> <!-- Title -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p class="subtitle is-6">First year Application Development PHP chat app.</p>
+                      <button class="button is-fullwidth has-background-grey-dark modal-button" v-on:click="isShowModal3 = true">
+                        <p class="subtitle is-6">View project details</p>
+                      </button>
+                    </div>
                   </div>
                 </div>
                 <!-- Project specific Modal -->
@@ -261,33 +272,36 @@
                         </div>
                         <!-- Image 1 modal -->
                         <div class="modal" v-bind:class="{ 'is-active': isShowImgPhpchat1 }">
-                          <div class="modal-background" v-on:click="isShowImgPhpchat1 = false"></div>
-                          <div class="modal-content">
+                          <div class="modal-background" v-on:click="isShowImgPhpchat1 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
                               <img src="../assets/projectimages/phpchat1.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                         <!-- Image 2 modal -->
                         <div class="modal" v-bind:class="{ 'is-active': isShowImgPhpchat2 }">
-                          <div class="modal-background" v-on:click="isShowImgPhpchat2 = false"></div>
-                          <div class="modal-content">
+                          <div class="modal-background" v-on:click="isShowImgPhpchat2 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
                               <img src="../assets/projectimages/phpchat2.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                         <!-- Image 3 modal -->
                         <div class="modal" v-bind:class="{ 'is-active': isShowImgPhpchat3 }">
-                          <div class="modal-background" v-on:click="isShowImgPhpchat3 = false"></div>
-                          <div class="modal-content">
+                          <div class="modal-background" v-on:click="isShowImgPhpchat3 = false">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                          </div>
+                          <div class="modal-content zoom-img2">
                             <p class="image">
                               <img src="../assets/projectimages/phpchat3.jpg">
                             </p>
                           </div>
-                          <button class="modal-close is-large" aria-label="close"></button>
                         </div>
                       </div>
                     </section>
@@ -313,9 +327,9 @@ export default {
       isShowModal: false,
       isShowModal2: false,
       isShowModal3: false,
-      isShowImgVoyager1: false,
-      isShowImgVoyager2: false,
-      isShowImgVoyager3: false,
+      isShowImgPortfolio1: false,
+      isShowImgPortfolio2: false,
+      isShowImgPortfolio3: false,
       isShowImgAvnctel1: false,
       isShowImgAvnctel2: false,
       isShowImgPhpchat1: false,
@@ -362,12 +376,25 @@ export default {
     background-color: palegreen; /* #98FB98 */
   }
 
-  .zoom-img {
+  .zoom-project, .zoom-img, .zoom-img2 {
     transition: transform .2s;
+  }
+
+  .zoom-project:hover {
+    transform: scale(1.02);
   }
 
   .zoom-img:hover {
     transform: scale(1.1);
-    cursor: pointer;
+    cursor: zoom-in;
+  }
+
+  .zoom-img2 {
+    transform: scale(1.5);
+  }
+
+  .zoom-img2:hover {
+    transform: scale(2);
+    cursor: zoom-in;
   }
 </style>
