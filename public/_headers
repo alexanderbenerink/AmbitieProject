@@ -3,7 +3,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
   # Block site from being framed with X-Frame-Options and CSP
-  Content-Security-Policy: frame-ancestors 'self'
+  Content-Security-Policy: frame-ancestors 'self';
 
   # X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking.
   X-Frame-Options: SAMEORIGIN
