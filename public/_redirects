@@ -1,2 +1,5 @@
 /*    /index.html   200
 /*    /index.html   404
+
+# prevent directory listing
+	Options -Indexes

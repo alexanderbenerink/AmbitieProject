@@ -3,7 +3,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
   # Block site from being framed with X-Frame-Options and CSP
-  Content-Security-Policy: frame-ancestors 'self'
+  Content-Security-Policy: frame-ancestors 'self';
 
   # X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking.
   X-Frame-Options: SAMEORIGIN
@@ -15,6 +15,12 @@
   # Disable plugins like Flash or Silverlight
   # Load images, scripts, stylesheets and fonts from self
   Content-Security-Policy: upgrade-insecure-requests;
+  Content-Security-Policy: form-action: 'self';
+  Content-Security-Policy: object-src: 'none';
+  Content-Security-Policy: script-src: 'self';
+  Content-Security-Policy: style-src: 'self';
+  Content-Security-Policy: base-uri: 'self';
+  Content-Security-Policy: img-src: 'self' https://i.imgur.com/ https://imgur.com/;
 
   # X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers.
   X-XSS-Protection: 1; mode=block
