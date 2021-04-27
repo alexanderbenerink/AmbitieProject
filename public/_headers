@@ -16,7 +16,7 @@
   # Load images, scripts, stylesheets and fonts from self
   Content-Security-Policy: upgrade-insecure-requests;
   Content-Security-Policy: form-action 'self';
-  Content-Security-Policy: object-src 'none';;
+  Content-Security-Policy: object-src 'none';
   Content-Security-Policy: base-uri 'self';
   Content-Security-Policy: img-src 'self' https://i.imgur.com/ https://imgur.com/;
 
