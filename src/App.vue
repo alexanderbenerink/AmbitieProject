@@ -27,7 +27,8 @@
             <span class="navbar-item">
               <a href="https://resume.io/r/OyuPrB8QU" class="button is-success" target="_blank" download>
                 <span class="icon">
-                  <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
+<!--                   <font-awesome-icon :icon="['fas', 'cloud-download-alt']" /> -->
+                  <i class="fas fa-cloud-download-alt"></i>
                 </span>
                 <span>CV</span>
               </a>
@@ -52,15 +53,35 @@
 <!--   <br> -->
   <!-- Footer navigation -->
 <!--   <br> -->
-    <div class="hero-foot">
+    <div class="hero-foot" v-once>
       <footer class="footer has-background-dark">
         <nav class="tabs is-boxed is-medium is-fullwidth">
           <div class="container">
             <ul>
-              <li class="footer-li"><a href="https://github.com/alexanderbenerink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
-              <li class="footer-li"><a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
-              <li class="footer-li"><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
-              <li class="footer-li"><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
+              <li class="footer-li">
+                <a href="https://github.com/alexanderbenerink" target="_blank">
+<!--                   <font-awesome-icon :icon="['fab', 'github']" /> -->
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank">
+<!--                   <font-awesome-icon :icon="['fab', 'linkedin']" /> -->
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a>
+<!--                   <font-awesome-icon :icon="['fab', 'twitter']" /> -->
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a>
+<!--                   <font-awesome-icon :icon="['fab', 'instagram']" /> -->
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </nav>

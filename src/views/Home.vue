@@ -13,7 +13,7 @@
                           <div class="card">
                             <div class="card-image has-background-dark has-text-centered">
                               <figure class="image is-128x128 is-inline-block">
-                                <img class="is-rounded" src="../assets/images/face.jpg">
+                                <img class="is-rounded" src="../assets/images/face.jpg" width="128" height="128">
                               </figure>
                             </div>
                             <div class="card-content has-background-dark">

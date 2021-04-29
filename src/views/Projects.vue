@@ -4,7 +4,7 @@
     <div class="hero-body">
       <div class="container is-fluid">
         <div class="columns is-multiline is-vcentered"> <!-- Overarching column -->
-          <div class="column is-three-quarters"> <!-- First nested column dividing the page -->
+          <div class="column is-three-quarters" v-once> <!-- First nested column dividing the page -->
             <div class="columns is-multiline is-vcentered"> <!-- Preparation column for nesting the column that occupies the left side of the page -->
               <div class="column is-full"> <!-- Page description column -->
                 <div class="hero-body">
@@ -23,7 +23,7 @@
               <div class="column is-one-quarter"> <!-- Project 1 card -->
                 <div class="post-card">
                   <div class="card">
-                    <div class="zoom-project">
+                    <div class="zoom-project" v-once>
                       <div class="card-header">
                         <div class="card-header-title card-1 is-centered"><p>School assignment</p></div>
                       </div>
@@ -390,6 +390,7 @@ export default {
 
   .zoom-project, .zoom-img, .zoom-img2 {
     transition: transform .2s;
+    background-color: #363636;
   }
 
   .zoom-project:hover {
