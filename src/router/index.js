@@ -52,6 +52,16 @@ const router = new VueRouter({
         home: 'Back'
       }
     },
+    {
+      path: '/media',
+      name: 'media',
+      component: () => import('../views/Media.vue'),
+      meta: {
+        auth: true,
+        title: 'Books and Movies',
+        home: 'Back'
+      }
+    },
     // Catch 404 or illegitimate urls etc
     {
       path: '/:catchAll(.*)',
