@@ -34,7 +34,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/americanpsycho.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/americanpsycho.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -54,7 +54,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/bladerunner.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/bladerunner.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -74,7 +74,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/bladerunner2049.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/bladerunner2049.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -94,7 +94,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/djangounchained.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/djangounchained.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -114,7 +114,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/drive.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/drive.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -134,7 +134,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/fightclub.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/fightclub.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -154,7 +154,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/inglouriousbasterds.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/inglouriousbasterds.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -174,7 +174,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/killbillvol1.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/killbillvol1.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -194,7 +194,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/killbillvol2.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/killbillvol2.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -214,7 +214,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/leon.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/leon.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -234,7 +234,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/nightcrawler.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/nightcrawler.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
@@ -254,7 +254,7 @@
                     <div class="zoom-project" v-once>
                       <div class="card-image">
                         <figure class="image is-mobile">
-                          <img src="@/assets/movieposters/nocountryforoldmen.jpg" alt="Image unavailable" width="250" height="368">
+                          <img src="@/assets/movieposters/nocountryforoldmen.jpg" alt="Loading image" width="250" height="368">
                         </figure>
                       </div>
                       <div class="card-header">
