@@ -1,13 +1,15 @@
 import axios from 'axios'
 
 const Axios = axios.create({
-  baseURL: 'https://api.airtable.com/v0/app40cdROa36i8voz/Table%201'
+  baseURL: 'https://api.airtable.com/v0/app40cdROa36i8voz/Posters'
 })
 
-Axios.defaults.headers.common = { 'Authorization': 'Bearer ' + process.env.VUE_APP_AIRTABLEKEY }
+const airtableAPIKey = process.env.VUE_APP_AIRTABLEKEY
+
+Axios.defaults.headers.common = { 'Authorization': 'Bearer ' + airtableAPIKey }
 
 export default {
   getPosters () {
-    return Axios.get()
+    return Axios.get('?maxRecords=4&view=Grid%20view')
   }
 }

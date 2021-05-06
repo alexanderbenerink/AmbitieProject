@@ -1,5 +1,5 @@
 <template>
-<!--   <div class="column is-one-quarter"> -->
+  <div class="column is-one-quarter">
     <div class="post-card"> <!-- Movie card -->
       <div class="card">
         <div class="zoom-project" v-once>
@@ -18,16 +18,16 @@
         </div>
       </div>
     </div>
-<!--   </div> -->
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Poster',
   props: {
-    title: String,
     image: String,
-    link: String
+    link: String,
+    title: String
   }
 }
 </script>

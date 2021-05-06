@@ -3,9 +3,9 @@
   <div class="hero is-cover is-relative is-fullheight-with-navbar is-dark">
     <div class="hero-body">
       <div class="container is-fluid">
-        <div class="columns is-multiline is-vcentered"> <!-- Overarching column -->
-          <div class="column is-three-quarters" v-once> <!-- First nested column dividing the page -->
-            <div class="columns is-multiline is-vcentered"> <!-- Preparation column for nesting the column that occupies the left side of the page -->
+        <div class="columns"> <!-- Overarching column -->
+          <div class="column is-one-quarter left"> <!-- First nested column dividing the page -->
+            <div class="columns is-multiline is-centered"> <!-- Preparation column for nesting the column that occupies the left side of the page -->
               <div class="column is-full"> <!-- Page description column -->
                 <div class="hero-body">
                     <div class="container">
@@ -18,12 +18,12 @@
               </div>
             </div>
           </div>
-          <div class="column is-full"> <!-- Second nested column dividing the page -->
+          <div class="column"> <!-- Second nested column dividing the page -->
             <div class="columns is-multiline is-centered"> <!-- Preparation column for nesting the columns that occupy the right side of the page -->
-              <div class="column is-one-quarter"> <!-- Project 1 card -->
+              <div class="column is-one-third"> <!-- Project 1 card -->
                 <div class="post-card">
                   <div class="card">
-                    <div class="zoom-project" v-once>
+                    <div class="zoom-project">
                       <div class="card-header">
                         <div class="card-header-title card-1 is-centered"><p>School assignment</p></div>
                       </div>
@@ -50,8 +50,8 @@
                     <div class="modal" v-bind:class="{ 'is-active': isShowModal }">
                       <div class="modal-background" v-on:click="isShowModal = false"></div>
                       <div class="modal-card">
-                        <header class="modal-card-head has-background-grey-dark">
-                          <p class="modal-card-title has-text-light">Information</p>
+                        <header class="modal-card-head has-background-dark">
+                          <p class="modal-card-title has-text-light">JS Framework portfolio website</p>
                           <button class="delete" aria-label="close" v-on:click="isShowModal = false"></button>
                         </header>
                         <section class="modal-card-body has-background-grey-dark has-text-light">
@@ -115,7 +115,7 @@
                             </div>
                           </div>
                         </section>
-                        <footer class="modal-card-foot has-background-grey-dark">
+                        <footer class="modal-card-foot has-background-dark">
                           <p>Feel free to <a class="url" href="https://github.com/alexanderbenerink/AmbitieProject" target="_blank">fork this site and see how it works!</a></p>
                           <!-- <button class="button has-background-grey-light" v-on:click="isShowModal = false">Close</button> -->
                         </footer>
@@ -124,7 +124,7 @@
                   </div>
                 </div>
               </div>
-              <div class="column is-one-quarter"> <!-- Project 2 card -->
+              <div class="column is-one-third"> <!-- Project 2 card -->
                 <div class="post-card">
                   <div class="card">
                     <div class="zoom-project">
@@ -154,8 +154,8 @@
                     <div class="modal" v-bind:class="{ 'is-active': isShowModal2 }">
                       <div class="modal-background" v-on:click="isShowModal2 = false"></div>
                       <div class="modal-card">
-                        <header class="modal-card-head has-background-grey-dark">
-                          <p class="modal-card-title has-text-light">Information</p>
+                        <header class="modal-card-head has-background-dark">
+                          <p class="modal-card-title has-text-light">AVNC Laravel CRUD Application</p>
                           <button class="delete" aria-label="close" v-on:click="isShowModal2 = false"></button>
                         </header>
                         <section class="modal-card-body has-background-grey-dark has-text-light">
@@ -207,7 +207,7 @@
                             </div>
                           </div>
                         </section>
-                        <footer class="modal-card-foot has-background-grey-dark">
+                        <footer class="modal-card-foot has-background-dark">
                           <a class="url" href="https://github.com/alexanderbenerink/avnctelefoonboek" target="_blank">See on Github</a>
                           <!-- <button class="button has-background-grey-light" v-on:click="isShowModal2 = false">Close</button> -->
                         </footer>
@@ -216,7 +216,7 @@
                   </div>
                 </div>
               </div>
-              <div class="column is-one-quarter"> <!-- Project 3 card -->
+              <div class="column is-one-third"> <!-- Project 3 card -->
                 <div class="post-card">
                   <div class="card">
                     <div class="zoom-project">
@@ -246,8 +246,8 @@
                     <div class="modal" v-bind:class="{ 'is-active': isShowModal3 }">
                       <div class="modal-background" v-on:click="isShowModal3 = false"></div>
                       <div class="modal-card">
-                        <header class="modal-card-head has-background-grey-dark">
-                          <p class="modal-card-title has-text-light">Information</p>
+                        <header class="modal-card-head has-background-dark">
+                          <p class="modal-card-title has-text-light">IRC-Style PHP Chat Application</p>
                           <button class="delete" aria-label="close" v-on:click="isShowModal3 = false"></button>
                         </header>
                         <section class="modal-card-body has-text-light has-background-grey-dark">
@@ -311,7 +311,7 @@
                             </div>
                           </div>
                         </section>
-                        <footer class="modal-card-foot has-background-grey-dark">
+                        <footer class="modal-card-foot has-background-dark">
                           <!-- <button class="button has-background-grey-light" v-on:click="isShowModal3 = false">Close</button> -->
                         </footer>
                       </div>
@@ -390,6 +390,9 @@ export default {
 
   .zoom-project, .zoom-img, .zoom-img2 {
     transition: transform .2s;
+  }
+
+  zoom-project {
     background-color: #363636;
   }
 

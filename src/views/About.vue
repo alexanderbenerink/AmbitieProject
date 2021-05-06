@@ -19,6 +19,9 @@
                           <p>
                            Some hobbies of mine include excercising, hanging with friends, learning how to program, read books and listening to music. My peers experience me as friendly, enthusiastic and eager-to-learn. I find that learning something new through a hands-on approach works the best for me (learning by doing). Every day I'm trying to do something new or productive to push my boundaries and improve.
                           </p>
+                          <p>
+                            Check out <router-link to="/media" class="url">this page to see my favorite books and movies</router-link>.
+                          </p>
                       </div>
                     </div>
                 </div>
