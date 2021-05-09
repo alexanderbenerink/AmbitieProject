@@ -348,7 +348,7 @@ export default {
   watch: {
     isShowModal: function () {
       if (this.isShowModal) {
-        document.documentElement.style.overflow = 'hidden'
+        document.documentElement.style.overflow = 'auto'
         return
       }
       document.documentElement.style.overflow = 'auto'

@@ -62,6 +62,16 @@ const router = new VueRouter({
         home: 'Back'
       }
     },
+    {
+      path: '/resume',
+      name: 'resume',
+      component: () => import('../views/Resume.vue'),
+      meta: {
+        auth: true,
+        title: 'Curriculum Vitae',
+        home: 'Back'
+      }
+    },
     // Catch 404 or illegitimate urls etc
     {
       path: '/:catchAll(.*)',

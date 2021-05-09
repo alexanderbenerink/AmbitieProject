@@ -22,17 +22,18 @@
           <div class="navbar-end">
             <router-link to="/about" class="navbar-item">About me</router-link>
             <router-link to="/projects" class="navbar-item">Projects</router-link>
+            <router-link to="/resume" class="navbar-item">Resume</router-link>
             <router-link to="/contact" class="navbar-item">Contact</router-link>
             <!-- CV button -->
-            <span class="navbar-item">
+<!--             <span class="navbar-item">
               <a href="https://resume.io/r/OyuPrB8QU" class="button is-success" target="_blank" download>
-                <span class="icon">
+                <span class="icon"> -->
 <!--                   <font-awesome-icon :icon="['fas', 'cloud-download-alt']" /> -->
-                  <i class="fas fa-cloud-download-alt"></i>
+<!--                   <i class="fas fa-cloud-download-alt"></i>
                 </span>
                 <span>CV</span>
               </a>
-            </span>
+            </span> -->
          </div>
        </div>
      </nav>
