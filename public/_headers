@@ -12,7 +12,7 @@
   # Don't load any resource type not explicitly enabled
   # Disable plugins like Flash or Silverlight
   # Load images, scripts, stylesheets and fonts from self
-  Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests; form-action 'self'; object-src 'none'; base-uri 'self'; img-src 'self' https://i.imgur.com/ https://imgur.com/;
+  Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests; form-action 'self'; object-src 'none'; base-uri 'self'; img-src 'self' https://i.imgur.com/ https://imgur.com/ https://*.airtable.com/;
 
   # X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers.
   X-XSS-Protection: 1; mode=block
