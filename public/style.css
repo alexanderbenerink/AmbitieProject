@@ -6,3 +6,7 @@ body, img {
 img {
 	color: black;
 }
+
+summary {
+	font-weight: bold;
+}
