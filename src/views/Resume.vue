@@ -80,7 +80,7 @@
                   </h1>
                   <section>
                     <summary>Programming languages</summary>
-                    <p>Most comfortable: HTML5 and PHP. Knowledge of Java, C#, PowerShell, JavaScript, Laravel and VueJS. Basic C++ and Axios</p>
+                    <p>Most comfortable: HTML5 and PHP. Knowledge of Java, C#, JavaScript, Laravel and VueJS. Basic C++ and Axios</p>
                   </section>
                     <br />
                   <section>
