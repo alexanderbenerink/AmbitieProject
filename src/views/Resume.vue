@@ -90,7 +90,7 @@
                     <br />
                   <section>
                     <summary>Applications/tools</summary>
-                    <p>Airtable and it's API, Claris FileMaker, Mantis Bug Tracker, HeidiSQL, PHPMyAdmin, Cisco Packet Tracer, Unreal Engine 4</p>
+                    <p>Airtable and it's API, Claris FileMaker, Mantis Bug Tracker, Homestead/Vagrant, HeidiSQL, PHPMyAdmin, Cisco Packet Tracer, Unreal Engine 4</p>
                   </section>
                     <br />
                   <section>
