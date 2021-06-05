@@ -29,7 +29,7 @@ Zorg dat Node.JS en NPM (Node Package Manager) is geinstalleerd.
 ```
 * Navigeer naar het URL dat aangegeven wordt in de terminal
 
-#### Voor het fixen van lint issues
+#### Voor het fixen van (lint) issues
 
 ```
 npm run lint
@@ -56,3 +56,17 @@ en/of (nog niet geprobeerd)
 npm install -g vue
 ```
 Maar als het goed is HOORT er geen probleem te zijn nadat de vue-cli-service is geinstalleerd.
+
+# Goals
+
+Hieronder een aantal punten die ik terug zou willen zien in dit project voor in de toekomst:
+
+- Zo veel mogelijk gebruikersvriendelijk maken.
+
+Op dit moment zijn er een aantal componenten op pagina's ge-'hardcode' (Projecten, Media). Omdat deze site een JAMstack is en ik het op netlify host, zijn mijn opties gelimiteerd tot het gebruik van Airtable (of alternatieve varianten) of FaunaDB, om extern de componenten gebruiksvriendelijk te kunnen manipuleren.
+
+- Zo veel mogelijk opschonen en optimaliseren (richtlijn site niet meer dan 1mb-3mb totaal, html verzoeken onder of rond de 20 houden).
+
+- Blog/artikelen systeem met tags maken waar ik bevindingen/tutorials/updates kan neerzetten.
+
+- Voeg een snelmenu en evt topic cloud (tags voor blog) toe aan home?

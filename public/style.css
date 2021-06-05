@@ -1,0 +1,12 @@
+
+body, img {
+	background-color: #363636;
+}
+
+img {
+	color: black;
+}
+
+summary {
+	font-weight: bold;
+}

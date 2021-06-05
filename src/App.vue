@@ -22,16 +22,18 @@
           <div class="navbar-end">
             <router-link to="/about" class="navbar-item">About me</router-link>
             <router-link to="/projects" class="navbar-item">Projects</router-link>
+            <router-link to="/resume" class="navbar-item">Resume</router-link>
             <router-link to="/contact" class="navbar-item">Contact</router-link>
             <!-- CV button -->
-            <span class="navbar-item">
+<!--             <span class="navbar-item">
               <a href="https://resume.io/r/OyuPrB8QU" class="button is-success" target="_blank" download>
-                <span class="icon">
-                  <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
+                <span class="icon"> -->
+<!--                   <font-awesome-icon :icon="['fas', 'cloud-download-alt']" /> -->
+<!--                   <i class="fas fa-cloud-download-alt"></i>
                 </span>
                 <span>CV</span>
               </a>
-            </span>
+            </span> -->
          </div>
        </div>
      </nav>
@@ -52,15 +54,35 @@
 <!--   <br> -->
   <!-- Footer navigation -->
 <!--   <br> -->
-    <div class="hero-foot">
+    <div class="hero-foot" v-once>
       <footer class="footer has-background-dark">
         <nav class="tabs is-boxed is-medium is-fullwidth">
           <div class="container">
             <ul>
-              <li><a href="https://github.com/alexanderbenerink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
-              <li><a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
-              <li><a><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
+              <li class="footer-li">
+                <a href="https://github.com/alexanderbenerink" target="_blank">
+<!--                   <font-awesome-icon :icon="['fab', 'github']" /> -->
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a href="https://www.linkedin.com/in/alexander-benerink/" target="_blank">
+<!--                   <font-awesome-icon :icon="['fab', 'linkedin']" /> -->
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a>
+<!--                   <font-awesome-icon :icon="['fab', 'twitter']" /> -->
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="footer-li">
+                <a>
+<!--                   <font-awesome-icon :icon="['fab', 'instagram']" /> -->
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -113,12 +135,17 @@ export default {
 <!-- Styles -->
 
 <style type="scss">
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 #app {
   min-height: 100vh;
   overflow: hidden;
   display: block;
   position: relative;
   padding-bottom: 190px; /* height of footer */
+  font-family: "Times New Roman" !important;
+
+  /* font-family: 'Merriweather', serif; */
 }
 footer {
  position: absolute;
@@ -140,8 +167,13 @@ footer {
   opacity: 0
 }
 
-a:hover {
-  color: lightgreen !important;
+.url:hover {
+  color: greenyellow !important;
+  background-color: black !important;
+}
+
+.navbar-item:hover, .footer-li:hover {
+  color: greenyellow !important;
 }
 </style>
 
