@@ -135,6 +135,8 @@ export default {
 <!-- Styles -->
 
 <style type="scss">
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 #app {
   min-height: 100vh;
   overflow: hidden;
@@ -142,6 +144,8 @@ export default {
   position: relative;
   padding-bottom: 190px; /* height of footer */
   font-family: "Times New Roman" !important;
+
+  /* font-family: 'Merriweather', serif; */
 }
 footer {
  position: absolute;
